@@ -342,7 +342,7 @@ Note the option -d in our docker run command. It is for "detached". It will run 
 This is a complete example : 
 
 ```bash
-docker run -d -p 8080:8080 -e OAUTH2_ISSUER="https://dev-ujjk4qhv7rn48y6w.eu.auth0.com/" -e OAUTH2_AUDIENCE="https://gthomas-cats-dogs.com" -e OAUTH2_JWKS_URI=".well-known/jwks.json" mlops_python_2022_2023:1.0.0
+docker run -d -p 8080:8080 -e OAUTH2_ISSUER="https://dev-d484tgv8yeu4s0ry.eu.auth0.com/" -e OAUTH2_AUDIENCE="https://siremestir-cats-dogs.com" -e OAUTH2_JWKS_URI=".well-known/jwks.json" mlops_python_2022_2023:1.0.0
 ```
 
 Now, let's try our Service from Postman!
